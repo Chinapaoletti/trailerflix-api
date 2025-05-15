@@ -41,9 +41,9 @@ De cada película o serie se contiene la siguiente información:
    O podes instalar express, dotenv y nodemon por separado:
    
     ```bash
-      npm install express
-      npm install dotenv
-      npm install --save-dev nodemon
+   npm install express
+   npm install dotenv
+   npm install --save-dev nodemon
     ```
 4. Ejecutá el servidor:
    * En modo desarrollo (con nodemon):
