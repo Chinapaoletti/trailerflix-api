@@ -1,6 +1,9 @@
 # 🎬 Trailerflix API
 
-**Trailerflix** es una API REST desarrollada con Node.js y Express que permite explorar un catálogo de películas/series a través de múltiples rutas.
+![Node.js](https://img.shields.io/badge/Node.js-18.x-green?logo=node.js) ![Express](https://img.shields.io/badge/Express.js-4.x-lightgrey?logo=express) ![License](https://img.shields.io/badge/license-MIT-blue.svg) ![Status](https://img.shields.io/badge/status-active-brightgreen) ![PRs](https://img.shields.io/badge/PRs-welcome-orange)
+
+
+**Trailerflix** es una API REST desarrollada con **Node.js** y **Express** que permite explorar un catálogo de películas y series a través de múltiples rutas organizadas.
 
 ## 🚀 Características
 
@@ -34,7 +37,10 @@ De cada película o serie se contiene la siguiente información:
 2. Instalá las dependencias:
     ```bash
     npm install
-    ```
+    ```2.1. Si aún no lo hiciste, instalá express y nodemon:
+      npm install express
+      npm install --save-dev nodemon
+
 3. Ejecutá el servidor:
    * En modo desarrollo (con nodemon):
         ```bash
