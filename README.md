@@ -37,11 +37,15 @@ De cada película o serie se contiene la siguiente información:
 2. Instalá las dependencias:
     ```bash
     npm install
-    ```2.1. Si aún no lo hiciste, instalá express y nodemon:
+    ```
+   O podes instalar express, dotenv y nodemon por separado:
+   
+    ```bash
       npm install express
+      npm install dotenv
       npm install --save-dev nodemon
-
-3. Ejecutá el servidor:
+    ```
+4. Ejecutá el servidor:
    * En modo desarrollo (con nodemon):
         ```bash
         npm run dev
@@ -50,7 +54,7 @@ De cada película o serie se contiene la siguiente información:
         ```bash
         npm start
         ```
-4. Accedé a la API a través de un navegador o herramienta de pruebas en la siguiente URL:
+5. Accedé a la API a través de un navegador o herramienta de pruebas en la siguiente URL:
    ```bash
    http://localhost:3008/
    ```
